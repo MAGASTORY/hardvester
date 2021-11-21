@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>The hardvester Challenge : Gagnez de l'argent</title>
+    <title>The hardvester Challenge : Affiliate</title>
 
     <!--- Google font CDN ----->
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
@@ -19,8 +19,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <!--=============== BOXICONS ===============-->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
      <!--- FONT AWESOME--->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
@@ -29,7 +31,7 @@
 </head>
 <body>
    
-    <div class="container container-sm conrainer-md">
+    <div class="container-fluid">
 
       <!-- Back to top button -->
                <a id="button"></a>
@@ -37,7 +39,7 @@
             
             <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="logo/logo1.png" alt="" srcset=""></a>
+                  <a class="navbar-brand" href="#"><img src="logo/logo1.png" alt=""></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -63,12 +65,12 @@
                 </div>
               </nav>
               <div class="mt-4 p-5 text-white rounded hero-title" id="section1" style="background-image: url(img/jumbotron.png); background-size: cover; background-repeat: no-repeat;">
-                <h1>Jumbotron Example</h1>
-                <p>Lorem ipsum...</p>
+                <h1><span id="typed2"></span></h1>
+                <p data-aos="fade-out">Programme de parrainage</p>
 
                 <!-- Button trigger modal -->
 <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Launch demo modal
+    Pour en savoir +
   </button>
   
   <!-- Modal -->
@@ -80,11 +82,15 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          ...
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/Pc-S1WA1wj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </div>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/Pc-S1WA1wj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="font-weight: 600;">Fermer</button>
+          <button type="button" class="btn btn-danger" style="font-weight: 600;"><a href="https://www.youtube.com/channel/UCaswW0W47tckWlAB0P1XgIQ" style="text-decoration: none;">S'abonner</a><img src="/Assets/icons/youtube.ico" alt="" style="width: 20px;"></button>
         </div>
       </div>
     </div>
@@ -113,14 +119,14 @@
 
               <div class="col-12 col-md-6 col-lg-6">
                 <div class="main-1-text">
-                  <p>Avec ce programme d’affiliation vous avez la possibilité de gagner de l’argent autant que vous voulez. <br> Pour cela vous devez atteindre l'objectif suivant : 
-                    Effectuer 10 inscriptions <span style="font-weight: 700;"><< complète >></span> de joueurs <i class="color-xbet">1XBET</i> ou <i class="color-betwinner">BETWINNER</i> et gagnez de l'argent après chaque 10 inscriptions.</p>
+                  <p>Avec ce programme de parrainage vous avez la possibilité de gagner de l’argent autant que vous voulez. <br> Pour cela vous devrez 
+                    Effectuer 10 inscriptions <span style="font-weight: 700;"> << complète >></span> de joueurs <i class="color-xbet">1XBET</i> ou <i class="color-betwinner">BETWINNER</i> et gagnez de l'argent après chaque 10 inscriptions.</p>
                 </div>
               </div>
 
               <div class="col-12 col-md-6 col-lg-6">
-                <div class="container">
-                  <video src="video/demo.mp4" style="width:500px" controls ></video>
+                <div class="video-description">
+                  <video src="video/demo.mp4" controls class="video-1"></video>
                 </div>
               </div>
 
@@ -134,17 +140,17 @@
 
             <div class="row">
                 
-              <div class="col-12 col-md-12 col-lg-12">
-                <h3><i class="color-xbet">1XBET</i> Challenge</h3>
+              <div class="col-12 col-md-12 col-lg-12 fix-title2">
+                <h3 data-aos="fade-out"><i class="color-xbet">1XBET</i> Challenge</h3>
               </div>
 
-              <div class="col-12 col-md-8 col-lg-8">
+              <div class="col-12 col-md-8 col-lg-8 d-fix">
                 
                 <div class="accordion accordion-fix" id="accordionPanelsStayOpenExample">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        <i class="color-xbet">1XBET</i> &nbsp; Challenge, Comment participer ?
+                         <p class="fix-button-text"> <i class="color-xbet">1XBET</i> Challenge, Comment participer ? </p>
                       </button>
                     </h2>
                     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
@@ -156,7 +162,7 @@
                           <li>L’inscrit devra effectuer un dépôt minimum de 500 XAF (obligatoire).</li>
                           <ul>
                             <li>
-                              <span class="ico-info"><img src="icons/information.ico" alt=""></span> NB: Si l’une des conditions précédemment suscité n’est pas respecté, l’inscription ne sera pas prise en compte. <br>
+                              <span class="ico-info"><img src="icons/information.ico" alt=""></span> NB: Si l’une des conditions précédemment suscitées n’est pas respecté, l’inscription ne sera pas prise en compte. <br>
                             </li>
                           </ul>
                           <li>Après chaque inscription notez le numero d'identifiant ( Ex : 303839479) du compte crée;</li><br>
@@ -200,8 +206,8 @@
                           <li>Envoyez-nous votre contact ou numéro payqin  à cette adresse <a href="https://t.me/joinchat/_MS4SScMC4wyNDk0" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" style="text-decoration: none;">Telegram</a>.</li>
                           <ul style="font-weight:600;">
                             <li><span class="ico-info"><img src="icons/information.ico" alt=""></span> NB: veuillez-vous rassurer que votre adresse payqin soit correct.</li>
-                             <li><span class="ico-info"><img src="icons/information.ico" alt=""></span> NB: les commissions sont versées dans un délai de maximum de 48h. </li><br>
-                             <li><span class="ico-info"> <img src="icons/warning.ico" alt=""></span> Ce programme d’affiliation est disponible uniquement dans le pays dans lesquels payqin est disponible.</li>
+                             <li><span class="ico-info"><img src="icons/information.ico" alt=""></span> NB: les commissions sont versées dans un délai de 48h maximum. </li><br>
+                             <li><span class="ico-info"> <img src="icons/warning.ico" alt=""></span> Ce programme de parrainage est disponible uniquement dans le pays dans lesquels payqin est disponible.</li>
                              <li><span class="ico-info"> <img src="icons/warning.ico" alt=""></span><u>DISLAIMER:</u> En prenant part à ce programme nous considérons que vous acceptez les termes et conditions liés au programme.</li>
                           </ul>
                         </ol>
@@ -213,7 +219,7 @@
               </div>
               <div class="col-12 col-md-3 col-lg-3">
                 <div class="img-2">
-                  <img src="img/xbet.png" style="width: 140%;" class="w3-round" alt="Norway" style="width: 380px;">
+                  <img src="img/xbet.jpg" class="w3-round" alt="Norway">
                 </div>
               </div>
 
@@ -226,14 +232,14 @@
             <div class="row">
 
               <div class="col-12 col-md-12 col-lg-12">
-                <h3 class="fix-h4"><i class="color-betwinner">BETWINNER</i> Challenge</h3>
+                <h3 class="fix-h4" data-aos="fade-in"><i class="color-betwinner">BETWINNER</i> Challenge</h3>
               </div>
                 
               
 
               <div class="col-12 col-md-4 col-lg-4">
                 <div class="img-3">
-                  <img src="img/bet.jpg" class="w3-round" alt="Norway" style="width: 90%; height: 270px;">
+                  <img src="img/bet.jpg" class="w3-round" alt="Norway">
                 </div>
               </div>
 
@@ -258,7 +264,7 @@
                                       <span class="ico-info"><img src="icons/information.ico" alt=""></span> NB: Si l’une des conditions précédemment suscité n’est pas respecté, l’inscription ne sera pas prise en compte. <br>
                                     </li>
                                   </ul>
-                                  <li>Après chaque inscription notez le numero d'identifiant ( Ex : 303839479) du compte crée;</li><br>
+                                  <li>Après chaque inscription notez le numero d'identifiant ( Ex : 292722133) du compte crée;</li><br>
                                   <li>Lorsque vous aurez collecté 10 identifiants, veuillez nous les envoyer à cette adresse <a href="https://t.me/joinchat/_MS4SScMC4wyNDk0" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" style="text-decoration: none;">Telegram</a>.</li> <br>
                                   <ul>
                                     <li>
@@ -301,7 +307,7 @@
                                   <li>Envoyez-nous votre contact ou numéro payqin  à cette adresse <a href="https://t.me/joinchat/_MS4SScMC4wyNDk0" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" style="text-decoration: none;">Telegram</a>.</li>
                                   <ul style="font-weight:600;">
                                     <li><span class="ico-info"><img src="icons/information.ico" alt=""></span> NB: veuillez-vous rassurer que votre adresse payqin soit correct.</li>
-                                     <li><span class="ico-info"><img src="icons/information.ico" alt=""></span> NB: les commissions sont versées dans un délai de maximum de 48h. </li><br>
+                                     <li><span class="ico-info"><img src="icons/information.ico" alt=""></span> NB: les commissions sont versées dans un délai de 48h maximum. </li><br>
                                   </ul>
                                 </ol> 
                               </p>
@@ -317,7 +323,7 @@
                           <div class="accordion__content">
                               <p class="accordion__description">
                                  <ul style="font-weight: 600;">
-                                  <li><span class="ico-info"> <img src="icons/warning.ico" alt=""></span> Ce programme d’affiliation est disponible uniquement dans le pays dans lesquels payqin est disponible.</li>
+                                  <li><span class="ico-info"> <img src="icons/warning.ico" alt=""></span> Ce programme de parrainage est disponible uniquement dans le pays dans lesquels payqin est disponible.</li>
                                   <li><span class="ico-info"> <img src="icons/warning.ico" alt=""></span><u>DISLAIMER:</u> En prenant part à ce programme nous considérons que vous acceptez les termes et conditions liés au programme.</li>
                                  </ul>
                               </p>
@@ -338,18 +344,27 @@
               <div class="col-12 col-md-12 col-lg-12">
                 <h3>Créez une carte <span class="pay-color">Visa PayQin</span> en moins de 2 minutes, vous allez aimer payer en ligne !</h3>
               </div>
-                
+            
+               <div class="mobile-view">
+                <h4>Créez une carte <span class="pay-color">Visa PayQin</span> en moins de 2 minutes, vous allez aimer payer en ligne !</h4>
+               </div>
+
               <div class="col-12 col-md-6 col-lg-6">
+                <p class="mobile">
+                  Désormais,  la  carte virtuelle VISA coûte 5000 XAF en Achetant avec le code promo : <span style="font-weight: 700; color: black;">PQN-R-vqoxpt</span> elle  vous  reviendra  à  4000  XAF au  lieu  de 5000  XAF. <br>
+                  <span class="ico-info"><img src="icons/information.ico" alt=""></span> Durée de validité : 4 ans.<br> <span class="ico-dl"><img src="icons/play-store.ico" alt="" style="width: 36px;"><a href="https://bit.ly/2OqgWmH" style="text-decoration: none;">Telecharger</a></span>
+
+                </p>
                 <div class="main-4-text">
                   <p>
                     Désormais,  la  carte virtuelle VISA coûte 5000 XAF en Achetant avec le code promo : <span style="font-weight: 700; color: black;">PQN-R-vqoxpt</span> elle  vous  reviendra  à  4000  XAF au  lieu  de 5000  XAF. <br>
-                    <span class="ico-info"><img src="icons/information.ico" alt=""></span> Durée de validité : 4 ans.
+                    <span class="ico-info"><img src="/Assets/icons/information.ico" alt=""></span> Durée de validité : 4 ans. <br> <span class="ico-dl"><img src="icons/play-store.ico" alt="" style="width: 36px;"><a href="https://bit.ly/2OqgWmH" style="text-decoration: none;">Telecharger</a></span>
                   </p>
                 </div>
               </div>
 
               <div class="col-12 col-md-6 col-lg-6">
-                <img src="img/diapo2.png" class="img-fluid" alt="...">
+                <img src="img/diapo2.png" class="img-fluid img-pqn" alt="...">
               </div>
             
             </div>
@@ -364,11 +379,11 @@
           
 
               <div class="col-12 col-md-6 col-lg-6">
-                <a href="https://www.renderforest.com/signup?afil_link=1736fc17d859de6a93b9d9e0cda431b3"><img src="img/renderforest.png" class="img-fluid" alt="renderforest"></a>
+                <a href="https://www.renderforest.com/signup?afil_link=1736fc17d859de6a93b9d9e0cda431b3"><img src="img/renderforest.png" class="img-fluid" alt="renderforest" data-aos="fade-right"></a>
               </div>
 
                 <div class="col-12 col-md-6 col-lg-6">
-                  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                  <div id="carouselExampleSlidesOnly" class="carousel slide">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <div class="title">
@@ -423,7 +438,7 @@
             <div class=" ">
               <div class="row w-row">
                 <div class="basic-column w-col w-col-3">
-                    <div class="tag-wrapper">
+                    <div class="tag-wrapper" data-aos="fade-right">
                         <div class="number-card number-card-content1">
                             <h1 class="number-card-number material-icons-outlined"><img src="icons/slow_motion_video_white_48dp.svg" alt="" srcset=""></h1>
                             <div class="number-card-dollars">15M+ vidéos créées</div>
@@ -468,7 +483,7 @@
                     </div>
                 </div>
                 <div class="basic-column w-col w-col-3">
-                    <div class="tag-wrapper">
+                    <div class="tag-wrapper" data-aos="fade-up">
                         <div class="number-card number-card-content4">
                             <h1 class="number-card-number"><img src="icons/people_white_48dp.svg" alt=""></h1>
                             <div class="number-card-dollars">8 000 000+ utilisateurs</div>
@@ -501,9 +516,7 @@
               </ul>
  
               <p class="footer-text">
-                MAGASTORY - &nbsp;
-                <span class="footer-span"></span>
-              &copy;&nbsp;All&nbsp;rights&nbsp;reserved
+                MAGASTORY - All&nbsp;rights&nbsp;reserved&nbsp;&copy;&nbsp; <span class="footer-span"></span>
               </p>
               
           </footer>
@@ -514,13 +527,20 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
-  /*function addDarkmodeWidget() {
-    new Darkmode().showWidget();
-  }
-  window.addEventListener('load', addDarkmodeWidget);
-
-  // Dark mode option */
+  AOS.init();
+</script>
+<script>
+    var typed2 = new Typed('#typed2', {
+    strings: ['<strong>Bienvenue</hello> sur', '<strong>The HardVester</strong>'],
+    typeSpeed: 100,
+    backSpeed: 0,
+    cursorChar: '_',
+    fadeOut: true,
+    loop: false
+  });
 </script>
  
 </body>

@@ -11,10 +11,23 @@ p{
   font-family: 'Inter', sans-serif;
   font-weight: 500
 }
+.fix-button-text{
+  font-size: 15px;
+}
 
 .accordion-body{
   font-size: 16px;
 }
+.img-2 img{
+  width: 140%;
+}
+.main-4 .mobile-view{
+  visibility: hidden;
+}
+.mobile{
+  visibility: hidden;
+}
+
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
@@ -49,7 +62,10 @@ nav img{
 nav .left{
  margin-left: auto;
 }
-
+.img-3 img{
+  width: 90%;
+  height: 329px;
+}
 
 /* content body */
 .color-xbet{
@@ -75,6 +91,9 @@ nav .left{
   top: 40px;
   text-align: justify;
 }
+.main-1 video{
+  width: 500px;
+}
 .section-1 .main-1-title h3{
   text-align: center;
   margin-left: 120px;
@@ -96,7 +115,7 @@ nav .left{
   width: 72%;
   position: relative;
   top: 35px;
-  left: 260px;
+  left: 380px;
 }
 .main-3 .img-3 img{
   position: relative;
@@ -107,6 +126,9 @@ nav .left{
   top: 40px;
 }
 
+.modal-body .embed-responsive iframe{
+  margin-left: 60px;
+}
 /* carousel fix */
 .carousel-item h4{
   text-align: center;
@@ -265,7 +287,7 @@ body {
   display: inline-block;
   width: 40%;
   position: relative;
-  top: 100px;
+  top: 240px;
 }
 .main-4 .main-4-text p{
   position: relative;
@@ -410,6 +432,9 @@ body {
 
   footer ul img{
       height: 28px;
+  }
+  .modal-footer img{
+    margin-left: 8px;
   }
 
   /* Button Scroll Top */
@@ -612,3 +637,177 @@ body {
         padding-bottom:16px;
     }
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 576px) {
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container-xs{
+    width: 100vh;
+  }
+  nav img{
+    width: 140px;
+  }
+  .hero-title h1{
+    font-size: 26px;
+    position: relative;
+    right: 27px;
+  }
+  .hero-title p{
+    font-size: small;
+    position: relative;
+    bottom: 25px;
+    right: 27px;
+  }
+  .main-1 .video-1{
+    width: 320px;
+    position: relative;
+    top: 55px;
+  }
+  .video-1{
+    object-fit: fill;
+  }
+
+  .main-1-title h3{
+    position: relative;
+    right: 69px;
+  }
+  .main-1 .main-1-text p{
+    font-size: 1.2em;
+  }
+  .main-2 .fix-title2{
+    position: relative;
+    right: 50px;
+    padding: 0 0px 0 0px ;
+  }
+  .main-2 .fix-title2 h3 i{
+    position: relative;
+    right: 82px;
+    top: 28px;
+  }
+  /*
+  .main-2 .accordion .accordion-item h2 button i{
+    visibility: hidden; 
+  }
+  */
+  .main-2 .accordion .accordion-item h2 button p{
+    font-size: 14px;
+    
+  }
+  .main-2 .img-2 img{
+    width: 320px;
+    position: relative;
+    top: 60px;
+  }
+
+  .main-3 .fix-h4{
+    position: relative;
+    left: 20px;
+    top: 60px;
+  }
+  .img-3 img{
+    height: 240px;
+    position: relative;
+    left: 10px;
+    bottom: 705px;
+  }
+  .main-3 .accordion-2-fix{
+    position: relative;
+    top: 100px;
+  }
+  .main-4 h3{
+    visibility: hidden;
+  }
+  .main-4 .mobile-view h4{
+    visibility: visible;
+    position: relative;
+    bottom: 160px;
+  }
+  .main-4-text p, .main-4-text img{
+     visibility: hidden;
+  }
+  .mobile{
+    position: relative;
+    bottom: 130px;
+    visibility: visible;
+  }
+  .img-pqn{
+    width: 320px;
+    position: relative;
+    bottom: 300px;
+  }
+  .main-5 .img-title img{
+    width: 150px;
+    height: 70px;
+    position: relative;
+    bottom: 290px;
+  }
+
+  .main-5 a{
+    position: relative;
+    bottom: 260px;
+    left: 20px;
+  }
+   .carousel-inner{
+     position: relative;
+     bottom: 200px;
+   }
+   .main-6-title{
+     position: relative;
+     bottom: 200px;
+   }
+   .tag-wrapper{
+     position: relative;
+     bottom: 140px;
+   }
+
+   footer h3{
+     font-size: 22px;
+   }
+   footer ul li{
+     position: relative;
+     left: 0px;
+     width: 40px;
+   }
+   footer p{
+    font-size: 14px;
+   }
+   .modal-body .embed-responsive iframe{
+    margin-left: 0px;
+  }
+
+}
+
+@media (min-width: 580px) and (max-width: 991.98px) {
+  *{
+    display: none;
+  }
+ }
+
+ @media (min-width: 1400px) { 
+   footer ul li{
+     position: relative;
+     left: 700px;
+   }
+   .main-1{
+     margin-left: 200px;
+   }
+   .main-6 .tag-wrapper{
+    position: relative;
+    left: 250px;
+   }
+   .main-1-title h3{
+     position: relative;
+     left: 340px;
+   }
+ }
+ @media (min-width: 998px) and (max-width:1398px) { 
+  .main-1{
+    margin-left: 55px;
+  }
+  }
+
